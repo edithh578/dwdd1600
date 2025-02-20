@@ -1,0 +1,215 @@
+body {
+    font-family: "Sora", serif;
+    margin: 0;
+}
+
+/*header stuff here*/
+header {
+    background-color: #Bca99a;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #B07D6e; 
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+/*navigation stuff here*/
+nav {
+    background-color: #F5f1dd;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .3rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #B07D6e;
+    font-weight: 700;
+}
+
+nav li.current {
+    background-color: #Bca99a;
+    color: #F5f1dd
+}
+
+nav li a:hover {
+    color: white
+}
+
+/*main stuff*/
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #B1c1B2;
+}
+
+main h2 {
+    color: #Bca99a;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #efefef;
+}
+
+main dl dt {
+    color: #B07D6e;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #Bca99a;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: black;
+}
+
+main em {
+    font-weight: 300;
+}
+
+main address {
+    font-style: normal;
+    background-color: #B1c1B2;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 2px solid #B07D6e;
+    width: 200px;
+}
+
+main a {
+    color: #B07D6e;
+}
+
+main a:hover {
+    color: #Bca99a
+}
+
+figure.blooms {
+    width:30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.blooms img {
+    width:100%;
+    height: auto;
+}
+figure.blooms figcaption{
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.gallery{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+div.gallery figure{
+    margin: .5rem 2% 0 0;
+}
+div.gallery figcaption{
+    text-align: center;
+    font-size: .8rem;
+    color:#B07D6e
+}
+
+.Club fieldset {
+    border: 1px solid #B07D6e;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+
+.Club legend{
+    color:#B07D6e;
+    font-size: .9rem;
+}
+
+.Club label {
+    margin: .5rem;
+}
+
+.Club label, .Club select, .Club [type=text], .Club [type=tel], .Club [type=email], .Club textarea {
+    display: block;
+    
+}
+
+.Club [type=text], .Club [type=tel],.Club [type=email], .Club select, .Club textarea
+
+{
+    border: solid 2px #888;
+    background-color: rgba(177,193,178,0.3);
+    padding: .3rem;
+    width: 240px;
+    border-radius: .2rem;
+}
+
+
+
+/*footer stuff*/
+footer {
+    background-color: #Bca99a;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #333
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+    font-family: "Sora", serif;
+    font-weight: 300;
+}
+.Club textarea{
+    height: 5rem;
+}
+
+.Club :required{
+    background-color: rgba(177,193,178,0.3) 
+}
+
+.Club input:required{border-left: 6px solid #Bca99a}
+.Club input:required:Valid{border-left: 6px solid #B07D6e}
+
+
+
+.Club [type=submit]{
+background-color: #B07D6e;
+border:none;
+padding: 1rem 2rem;
+border-radius: 10px;
+margin: 1rem 0 0 1vw;
+}
